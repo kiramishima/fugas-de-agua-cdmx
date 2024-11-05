@@ -1,0 +1,47 @@
+[{
+    "id": "f413ee28-76d5-49e1-85bc-6c55081a28b6",
+    "nombre": "Demo",
+    "telefono": "4554585455",
+    "mensaje": "Reporte fuga de agua en la calle x, en la colonia Y",
+    "ubicacion": {
+        "lat": 86.85658,
+        "lng": 98.28565
+    },
+    "fotos": [
+        "s3://reportes_agua/f413ee28-76d5-49e1-85bc-6c55081a28b6/foto1.webp",
+        "s3://reportes_agua/f413ee28-76d5-49e1-85bc-6c55081a28b6/foto2.webp",
+        "s3://reportes_agua/f413ee28-76d5-49e1-85bc-6c55081a28b6/foto3.webp"
+    ],
+    "status": "NUEVO"
+},{
+    "id": "f413ee28-76d5-49e1-85bc-6c55081a28b6",
+    "nombre": "Demo 2",
+    "telefono": "4554585455",
+    "mensaje": "Reporte fuga de agua en la calle x entre la calle a y la calle b, en la colonia Y",
+    "ubicacion": {
+        "lat": 86.85658,
+        "lng": 98.28565
+    },
+    "fotos": [
+        "s3://reportes_agua/f413ee28-76d5-49e1-85bc-6c55081a28b6/foto1.webp",
+        "s3://reportes_agua/f413ee28-76d5-49e1-85bc-6c55081a28b6/foto2.webp",
+        "s3://reportes_agua/f413ee28-76d5-49e1-85bc-6c55081a28b6/foto3.webp"
+    ],
+    "status": "EN REVISION"
+},{
+    "id": "f413ee28-76d5-49e1-85bc-6c55081a28b6",
+    "nombre": "Demo 3",
+    "telefono": "4554585455",
+    "mensaje": "Reporte fuga de agua en la calle x a la altura de la tienda, en la colonia Y, delegacion Z",
+    "ubicacion": {
+        "lat": 86.85658,
+        "lng": 98.28565
+    },
+    "fotos": [
+        "s3://reportes_agua/f413ee28-76d5-49e1-85bc-6c55081a28b6/foto1.webp",
+        "s3://reportes_agua/f413ee28-76d5-49e1-85bc-6c55081a28b6/foto2.webp",
+        "s3://reportes_agua/f413ee28-76d5-49e1-85bc-6c55081a28b6/foto3.webp"
+    ],
+    "id_personal": "ebfa7cfc-4151-4751-a0d9-4b02e74f011c",
+    "status": "ATENDIDO"
+}]
