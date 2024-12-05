@@ -36,12 +36,3 @@ def export_data_to_s3(data, **kwargs) -> None:
     print(client.list_buckets().get("Buckets"))
     bucket_name = 'cero-fugas'
     write_parquet(client, df, bucket_name, F"{fname}.parquet")
-
-   #pyarrow.dataset.write_dataset(df.to_arrow(),
-    #                          'data',
-    #                          format='parquet')
-    s3_path = f"s3://{bucket_name}/test.parquet"
-    #df.write_parquet("s3://cero-fugas/test.parquet", storage_options=storage_options)
-    #with fs.open(s3_path, mode="wb") as f:
-    #    df.write_parquet(f)
-    return s3_path

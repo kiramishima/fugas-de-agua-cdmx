@@ -11,11 +11,14 @@ if 'data_exporter' not in globals():
 
 def write_parquet(client, df, bucket, key):
     parquet_io = BytesIO()
-    df.write_parquet(parquet_io)
-    return client.upload_fileobj(parquet_io, bucket, key)
+    df.write_parquet(parquet_io, compression='gzip')
+    return client.put_object(Bucket=bucket, Key=key, Body=parquet_io.getvalue())
 
 @data_exporter
 def export_data_to_s3(data, **kwargs) -> None:
+    df, fname = data
+    print(fname)
+    # Conexion a S3
     df, fname = data
     print(fname)
     # Conexion a S3
