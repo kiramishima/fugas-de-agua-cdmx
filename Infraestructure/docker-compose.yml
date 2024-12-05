@@ -7,9 +7,9 @@ services:
       - "9001:9001"
     volumes:
       - ./storage:/data
-    command: server /data --console-address ":9001"
     env_file:
       - .env
+    command: server /data --console-address ":9001"
     networks:
       - fugacero
 
@@ -97,7 +97,7 @@ services:
       - .env
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: ../docker-images/mage.Dockerfile
     environment:
       USER_CODE_PATH: /home/src/${PROJECT_NAME}
       POSTGRES_DBNAME: ${POSTGRES_DBNAME}
@@ -114,6 +114,25 @@ services:
     networks:
       - fugacero
 
+  metabase:
+    image: metabase/metabase:latest
+    env_file:
+      - .env
+    environment:
+      USER_CODE_PATH: /home/src/${PROJECT_NAME}
+      POSTGRES_DBNAME: ${POSTGRES_DBNAME}
+      POSTGRES_SCHEMA: ${POSTGRES_SCHEMA}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_HOST: ${POSTGRES_HOST}
+      POSTGRES_PORT: ${POSTGRES_PORT}
+    ports:
+      - 3000:3000
+    volumes:
+      - ./metabase:/metabase-data
+    restart: on-failure:5
+    networks:
+      - fugacero
 networks:
   fugacero:
     driver: bridge

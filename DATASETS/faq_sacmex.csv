@@ -1,25 +1,25 @@
-id,pregunta,respuesta
-d7c4ce5eda85cd602edc71a3f29193e0,¿Dónde puedo reportar una fuga de agua?,Debes reportarla al organismo operador de agua potable y alcantarillado de tu localidad.
-c6b1388a0227cae6d6045a1dc7dd82c5,¿Qué debo hacer si veo una fuga de agua en la calle?,"En la Ciudad de México, debes reportarla al 55 5654 3210 para que una brigada del Sistema de Aguas de la Ciudad de México acuda a repararla."
-b9e493259e0b9fb9f94e4f4d66ab8ded,¿Qué debo hacer si veo una fuga de agua en mi casa?,"Lo primero que debes hacer es cortar el suministro de agua, ya sea con el grifo de cierre o la válvula de cierre, que generalmente se encuentran en el baño o la cocina. "
-5229ec6562607f2de830a7826a099964,¿Qué debo hacer si mi consumo de agua parece haberse elevado?,"Si no tienes fuga de agua en tu casa, puedes tomar la lectura del medidor, enviar una foto y comparar con el recibo anterior. Si hay discrepancia, puedes levantar un reporte."
-9055d52c36234595f93430ca60610b82,¿Cuánto tiempo tarda en repararse una fuga de agua?,"Después de supervisar los materiales, maquinaria y personal, se comienzan los trabajos de reparación en un plazo de 48 horas."
+id,pregunta,respuesta,document
+d7c4ce5eda85cd602edc71a3f29193e0,¿Dónde puedo reportar una fuga de agua?,Debes reportarla al organismo operador de agua potable y alcantarillado de tu localidad.,faq_sacmex
+c6b1388a0227cae6d6045a1dc7dd82c5,¿Qué debo hacer si veo una fuga de agua en la calle?,"En la Ciudad de México, debes reportarla al 55 5654 3210 para que una brigada del Sistema de Aguas de la Ciudad de México acuda a repararla.",faq_sacmex
+b9e493259e0b9fb9f94e4f4d66ab8ded,¿Qué debo hacer si veo una fuga de agua en mi casa?,"Lo primero que debes hacer es cortar el suministro de agua, ya sea con el grifo de cierre o la válvula de cierre, que generalmente se encuentran en el baño o la cocina. ",faq_sacmex
+5229ec6562607f2de830a7826a099964,¿Qué debo hacer si mi consumo de agua parece haberse elevado?,"Si no tienes fuga de agua en tu casa, puedes tomar la lectura del medidor, enviar una foto y comparar con el recibo anterior. Si hay discrepancia, puedes levantar un reporte.",faq_sacmex
+9055d52c36234595f93430ca60610b82,¿Cuánto tiempo tarda en repararse una fuga de agua?,"Después de supervisar los materiales, maquinaria y personal, se comienzan los trabajos de reparación en un plazo de 48 horas.",faq_sacmex
 34f49a09c09f373422893abead2bad4e,¿Dónde puedo reportar una fuga de agua?,"Para reportar una fuga de agua en la Ciudad de México, puedes: 
 Llamar al LOCATEL al *0311 o al 55 5658 1111 
 Contactar a las redes sociales oficiales del SACMEX en X (antes Twitter) y @SistemaDeAguasCDMX en Facebook 
 Ingresar a la página web de atención ciudadana de la CDMX y llenar el cuadro con la descripción del servicio que requieres 
-Si el daño es imputable al usuario, deberá cubrir el costo de la reparación. Para ello, se puede acudir al Área de Atención Ciudadana más cercana al domicilio."
-221e2b757cee67a9babd822666eae6b1,¿Cómo reportar fugas de agua en CDMX?,"Para realizar cualquier reporte por fuga en la vía pública, el SACMEX pone a disposición de la ciudadanía el número telefónico de LOCATEL *0311 y 55 5658 1111, así como sus redes sociales oficiales @SacmexCDMX en X (antes Twitter) y @SistemaDeAguasCDMX en"
+Si el daño es imputable al usuario, deberá cubrir el costo de la reparación. Para ello, se puede acudir al Área de Atención Ciudadana más cercana al domicilio.",faq_sacmex
+221e2b757cee67a9babd822666eae6b1,¿Cómo reportar fugas de agua en CDMX?,"Para realizar cualquier reporte por fuga en la vía pública, el SACMEX pone a disposición de la ciudadanía el número telefónico de LOCATEL *0311 y 55 5658 1111, así como sus redes sociales oficiales @SacmexCDMX en X (antes Twitter) y @SistemaDeAguasCDMX en",faq_sacmex
 deb8c6e4cf607cabc9fd72178b45daae,¿Qué otro de reportes puedo realizar?,"Tambien puedes reportar:
 - Brotes de aguas negras
 - Tomas clandestinas
 - Mala calidad del recurso
 - Robo o desperfecto de tapas de coladeras
 - Falta de tapas de válvulas
-- Desbordes en tanques de almacenamiento"
+- Desbordes en tanques de almacenamiento",faq_sacmex
 977ff53e8650679587f99ee537c8b095,¿Qué debo tener en cuenta para levantar mi reporte?,"Para levantar un reporte debes tener en cuenta lo siguiente:
 - Contar con la dirección exacta del lugar y la descripción precisa del problema
-- Proporcionar nombre de la alcaldia, colonia, calle y número oficial, calles aledañas, nombre del reportante y número telefónico."
+- Proporcionar nombre de la alcaldia, colonia, calle y número oficial, calles aledañas, nombre del reportante y número telefónico.",faq_sacmex
 e118293c4450a72349aa684baa54f5eb,¿Puedo reportar fugas en unidades habitacionales?,"No, las fugas en unidades habitacionales son reparadas por la administración de las mismas unidades.
-En caso de fugas exteriores a tu unidad reporta a los telefonos 5556581111 o 5556543210."
-edb019b4dbee72a582d41a5d60234bdd,¿Qué hacer si tengo problemas con el suministro de agua potable?,"En la Ciudad de México los encargados de proporcionar el servicio de agua potable, drenaje y tratamiento de aguas residuales a la población son los organismos operadores y las oficinas de agua potable de cada municipio, "
+En caso de fugas exteriores a tu unidad reporta a los telefonos 5556581111 o 5556543210.",faq_sacmex
+edb019b4dbee72a582d41a5d60234bdd,¿Qué hacer si tengo problemas con el suministro de agua potable?,"En la Ciudad de México los encargados de proporcionar el servicio de agua potable, drenaje y tratamiento de aguas residuales a la población son los organismos operadores y las oficinas de agua potable de cada municipio, ",faq_sacmex
